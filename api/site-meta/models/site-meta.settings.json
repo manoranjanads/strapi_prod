@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "site_metas",
+  "info": {
+    "name": "SiteMeta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "mainMenu": {
+      "type": "json"
+    },
+    "author": {
+      "type": "string"
+    },
+    "logoText": {
+      "type": "string"
+    },
+    "copyrights": {
+      "type": "string"
+    },
+    "defaultTheme": {
+      "type": "enumeration",
+      "enum": [
+        "dark",
+        "light"
+      ]
+    },
+    "showMenuItems": {
+      "type": "integer"
+    }
+  }
+}

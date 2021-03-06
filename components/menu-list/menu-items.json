@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_menu_list_menu_items",
+  "info": {
+    "name": "MenuItems",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Home": {
+      "type": "boolean"
+    },
+    "About": {
+      "type": "boolean"
+    },
+    "Blog": {
+      "type": "boolean"
+    }
+  }
+}

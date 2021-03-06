@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_menu_items_meta_data_menu_items_metas",
+  "info": {
+    "name": "menuItemsMeta",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "maxItemsLimit": {
+      "type": "integer",
+      "default": 2
+    },
+    "seeMoreItemsText": {
+      "type": "string",
+      "default": "see more.."
+    }
+  }
+}

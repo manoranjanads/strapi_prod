@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "about_pages",
+  "info": {
+    "name": "AboutPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "AboutContent": {
+      "type": "richtext"
+    },
+    "HeaderCover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "HeaderText": {
+      "type": "string"
+    }
+  }
+}

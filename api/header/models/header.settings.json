@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "headers",
+  "info": {
+    "name": "Header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "logoText": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "menuItems": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu-list.menu-items"
+    },
+    "menuItemsMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu-items-meta-data.menu-items-meta"
+    }
+  }
+}
