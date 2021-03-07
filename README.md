@@ -9,11 +9,11 @@
 ## Features
 
 - Pre-built APIs (home, header, about etc.)
-- User roles and Authentications
+- User roles and authentications
 - Code Automation with Ansible
 - Postgre DB integration (AWS RDS)
 - AWS S3 integration
-- Webhook Support
+- Webhook support (CI/CD)
 
 ## Prerequisite
 You should have an active [AWS](https://aws.amazon.com/) account. Just enough!
@@ -53,7 +53,7 @@ All most all the setups including, packages, Nginx Server, R3 SSL, Automatic ser
 ![High Level Archi](https://res.cloudinary.com/manoranjana-me/image/upload/v1615094192/Strapi-Gatsby%20Project/simple-architecure_ooiejd.png)
 
 
-#### Webhook Configuration
+#### Webhook Configuration (CI/CD)
 By using a Webhook, you can easily trigger the EC2 instance. You should follow up steps bellow:
 
 You will need to access the  `Settings`  tab for your  `Strapi Project Repository`:
