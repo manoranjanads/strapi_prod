@@ -44,7 +44,8 @@ Then navigate to `inventory.yml` and replace your AWS pem file with your and you
 
 ## How it Works
 
-This is awesome! If you run the Ansible script above, you don't have to do anything else. 
+This is awesome! 
+If you run the Ansible script above, you don't have to do anything else. 
 All most all the setups including, packages, Nginx Server, R3 SSL, Automatic services are properly installed on your EC2 instance. 
 
 #### High Level Architecture
@@ -68,6 +69,7 @@ You will need to access the  `Settings`  tab for your  `Strapi Project Repositor
 
 **Note:** Above instructions are mostly compatible with GitHub. But you also can use GitLab or any other provider as well.
 
+Once you setup webhook, every time you push anything to your project, it automatically triggers the EC2 instance and rebuild itself.
 ### Check API Endpoints
 You can check whether your API responses are working to the public, simply by making a GET request on one of the API on your project as follows: 
 *Ex:*
