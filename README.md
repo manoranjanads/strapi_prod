@@ -69,13 +69,13 @@ You will need to access the  `Settings`  tab for your  `Strapi Project Repositor
 **Note:** Above instructions are mostly compatible with GitHub. But you also can use GitLab or any other provider as well.
 
 ### Check API Endpoints
-You can check whether your API responses are working to the public, smply by making a GET request on of the API on your project as follows: 
+You can check whether your API responses are working to the public, simply by making a GET request on one of the API on your project as follows: 
 *Ex:*
 
     GET http://strapi.manoranjana.me/about-page
 (Replace your domain and check.)
 
-If the status is **200 OK** and show the contect body properly, that means you can use these public endpoints to any of your works as required.
+If the status is **200 OK** and show the content body properly, that means you can use these public endpoints to any of your works as required.
 
 ## How to Contribute
 
