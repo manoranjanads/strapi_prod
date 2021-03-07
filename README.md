@@ -57,7 +57,7 @@ By using a Webhook, you can easily trigger the EC2 instance. You should follow u
 You will need to access the  `Settings`  tab for your  `Strapi Project Repository`:
 
 1.  Navigate and click to  `Settings`  for your repository.
-2.  Click on  `Webhooks`, then click  `Add Webhook`.
+2.  Click on  `Webhooks`, then click  `Add Webhook`.
 3.  The fields are filled out like this:
     -   Payload URL: Enter  `http://your-ip-address:8080`
     -   Content type: Select  `application/json`
