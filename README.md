@@ -9,6 +9,7 @@
 ## Features
 
 - Pre-built APIs (home, header, about etc.)
+- User roles and Authentications
 - Code Automation with Ansible
 - Postgre DB integration (AWS RDS)
 - AWS S3 integration
