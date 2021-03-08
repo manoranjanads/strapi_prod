@@ -35,9 +35,9 @@ Create an **A RECORD** pointing your domain as follows:
 
     A RECORD    -    strapi.manoranjana.me      -     44.125.35.15
 
-## Ansible Installation
-Once you ready, you can open up the Ansible code you have installed. 
-Then navigate to `inventory.yml` and replace your AWS pem file with your and your EC2 Public IP. Now go to `group_vars/all.yml` and replace with your variables as required. Then, return back to the root  and run as follows in your terminal:
+## Automatic Deployment
+Once you ready, you can open up the Ansible code you have downloaded. 
+Then navigate to `inventory.yml` and replace your AWS pem file with yours and your EC2 Public IP. Now go to `group_vars/all.yml` and replace with your variables as required. Then, return back to the root  and run as follows in your terminal:
 
     ansible-playbook -i inventory.yml strapi_main.yml
 
