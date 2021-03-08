@@ -84,7 +84,7 @@ If the status is **200 OK** and show the content body properly, that means you c
 
 If you spot any bugs, please use [Issue Tracker](https://github.com/mrghonline/strapi_prod) or if you want to add a new feature directly please create a new [Pull Request](https://github.com/mrghonline/strapi_prod/pulls).
 
-## Connect Me
+## Join with Me
 
 If you like my work and want to contact me just visit my [Official Website](https://manoranjana.me/).
 
